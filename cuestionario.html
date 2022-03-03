@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <nav>
+            <a href="index.html" class="item">Home</a>
+            <a href="trayectomusical.html" class="item">Trayecto Musical</a>
+            <a href="cuestionario.html" class="item">Cuestionario </a>
+    </nav> 
+<div class="formulario">
+<form action="index.html" method="get">
+<label for="nombre" id="nombre">Escribe el nombre del 'Rey del Pop':
+    <input type="text"></label>
+<br>
+<label for="fecha" id="fecha">Escoja la fecha de nacimiento de MJ:
+    <input type="radio">25 de junio de 2009
+    <input type="radio">29 de agosto de 1959
+    <input type="radio">29 de agosto de 1958
+    <input type="radio">25 de junio de 1957
+</label>
+<br>
+<label for="ciudad" id="ciudad">¿En qué ciudad nació MJ?
+<select name="ciudad" id="ciudad">
+<option selected value="0"> Elige una ciudad </option>
+<option value="1">Gary, Indiana</option>
+<option value="2">Los Angeles, California</option>
+<option value="3">Washington D.C</option>
+</select>
+</label>
+<br>
+<label for="album" id="album">
+    <select name="album" id="album">
+        <option value="0" selected>Elige tu canción favorita de MJ</option>
+        <optgroup label="Thriller">
+            <option value="1">"Thriller" </option>
+            <option value="2">"Billie Jean"</option>
+            <option value="3">"Beat it"</option>
+        </optgroup>
+        <optgroup label="Dangerous">
+            <option value="4">"Black or White"</option>
+            <option value="5">"Remember the Time"</option>
+            <option value="6">«Who Is It»</option>
+        </optgroup>
+        <optgroup label="Off the Wall" </optgroup>
+            <option value="7">"Don't Stop 'Til You Get Enough"</option>
+            <option value="8">"Rock with You"</option>
+        <optgroup label="Bad"></optgroup>
+        <option value="9">"Smooth Criminal"</option>
+        <option value="10">"Dirty Diana"</option>
+        <option value="11">"The Way You Make Me Feel"</option>
+</label>
+<br>
+<label for="observaciones">
+<textarea rows="8" cols="30" name="observaciones" placeholder="¿Tienes alguna observación? Cuéntanos aquí"></textarea></label>
+<br>
+<label for="califica">Califica tu experiencia en el sitio:</label>
+<input type="range" min="1" max="5" step="1" value="1" name="range" id="range">
+<br>
+<label for=""></label>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+</div>
+</form>
+</body>
+</html>

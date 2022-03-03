@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {background-image: url(../img/background.jpg);}
+h1 {font-family: 'Lobster', cursive; font-size: 50px;}
+h2 {font-family: 'Fredoka', sans-serif;}
+p {font-family: 'Fredoka', sans-serif;}
+nav {background-color: rgb(116, 20, 7);
+display: flex;
+padding: 10px 10px;
+justify-content:space-between;
+align-items: center;}
+
+.item {padding: 10px auto;
+font-family:'Fredoka', sans-serif;
+color: rgb(255, 255, 255);
+text-decoration: none;
+}
+
+.item:hover {
+    color:rgb(255, 227, 152);
+    border-bottom: 2px solid antiquewhite;}
+
+#banner {display: flex;
+    background-color: darkcyan;}
+#banner img {align-items: flex-end;}
+.p1 {background:linear-gradient(to right, #ff9a71,#fdd3c3);
+width: 800px;
+margin: 50px auto;
+border-width: 4px;
+border-color: rgb(7, 0, 0);
+border-style:inherit;
+padding: 20px;
+box-shadow: 3px 3px 7px #999999;
+overflow: hidden;
+}
+.p1 img {float: left; width: 200px; padding: 10px;}
+.p2 {background:linear-gradient(to right, #ff9a71,#fdd3c3);
+    width: 800px;
+    margin: 50px auto;
+    border-width: 4px;
+    border-color: rgb(7, 0, 0);
+    border-style:inherit;
+    padding: 20px;
+    box-shadow: 3px 3px 7px #999999;
+    overflow: hidden;
+    }
+.p2 img {float: left; width: 200px; padding: 10px;}
+.p3 {background:linear-gradient(to right, #ff9a71,#fdd3c3);
+    width: 800px;
+    margin: 50px auto;
+    border-width: 4px;
+    border-color: rgb(7, 0, 0);
+    border-style:inherit;
+    padding: 20px;
+    box-shadow: 3px 3px 7px #999999;
+    overflow: hidden;
+    }
+.p3 img {float: left; width: 200px; padding: 10px;}
+.videos {background-color: #999999;
+text-align: center;}
+button {border-radius: 100px; background-color: #ff672b; color: #fdd3c3; padding: 10px 10px; font-family:'Fredoka', sans-serif; text-decoration: none;}
+
+/*--Index*/
+
+.trayectom {background:linear-gradient(to right, #ff9a71, #fdd3c3);  padding: 10px;}
+.trayectom h1 {text-align: center;}
+.trayectom ul {font-family:'Fredoka', sans-serif ;}
+.table1 table {
+    border: 10px #000;}
+ th, td {background-color: rgb(125, 253, 253);
+    width: 25%;
+    text-align: center;
+    border: 2px solid #000;
+    border-spacing: 0;}
+
+.album img {width: 200px; padding: 10px; float: left;}
+
+/*--Trayecto*/
+
+form {background-color: azure; width: 500px; align-items: center; font-size: larger; font-family: 'Fredoka', sans-serif; padding: 50px;}
+
+
+
+
+ 
